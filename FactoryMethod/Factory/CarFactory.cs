@@ -10,5 +10,5 @@ public abstract class CarFactory
     /// <summary>
     /// Factory Method - Returns the product
     /// </summary>
-    public abstract Car CreateCar();
+    public abstract ICar CreateCar();
 }

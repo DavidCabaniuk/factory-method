@@ -10,7 +10,7 @@ public class SUVFactory : CarFactory
     /// <summary>
     /// Create an SUV car
     /// </summary>
-    public override Car CreateCar()
+    public override ICar CreateCar()
     {
         return new SUV();
     }

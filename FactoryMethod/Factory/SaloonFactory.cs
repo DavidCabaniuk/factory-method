@@ -10,7 +10,7 @@ public class SaloonFactory : CarFactory
     /// <summary>
     /// Create a Saloon car
     /// </summary>
-    public override Car CreateCar()
+    public override ICar CreateCar()
     {
         return new Saloon();
     }

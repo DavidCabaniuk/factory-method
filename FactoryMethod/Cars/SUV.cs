@@ -3,9 +3,9 @@
 /// <summary>
 /// Concrete product 1 (SUV)
 /// </summary>
-public class SUV : Car
+public class SUV : ICar
 {
-    public override void GetCarType()
+    public void GetCarType()
     {
         Console.WriteLine("This is an SUV.");
     }

@@ -3,9 +3,9 @@
 /// <summary>
 /// Concrete product 2 (Saloon)
 /// </summary>
-public class Saloon : Car
+public class Saloon : ICar
 {
-    public override void GetCarType()
+    public void GetCarType()
     {
         Console.WriteLine("This is a Saloon.");
     }

@@ -3,7 +3,7 @@
 /// <summary>
 /// Abstract product (Car)
 /// </summary>
-public abstract class Car
+public interface ICar
 {
-    public abstract void GetCarType();
+    public void GetCarType();
 }
