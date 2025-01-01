@@ -2,6 +2,9 @@
 
 namespace FactoryMethod.Factory;
 
+/// <summary>
+/// Creator (CarFactory) - Abstract class with factory method
+/// </summary>
 public abstract class CarFactory
 {
     /// <summary>
